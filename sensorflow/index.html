@@ -193,19 +193,6 @@
 </section>
 
 
-
-  %
-  We start with sensor-based pre-stabilization that smooths out large-scale camera motion. 
-  %
-  A new  angular velocity domain optimization has been introduced to achieve frame rate invariance.
-  %
-  We then feed the stabilized optical flows into an occlusion-aware 3D CNN that infers dense warp fields to remove residual translation and jitter.
-  %
-  To further avoid distortion, we propose a novel masking scheme to determine the disoccluded and dynamic regions in optical flow and inpaint them with spatially smooth flow vectors.
-  %
-  Our method is appealing as it shares both the dense warping field's flexibility to correct complex motions and the robustness of sensor data for arbitrarily challenging scenes.
-  %
-  We have validated its effectiveness and demonstrated our solution outperforms state-of-the-art alternatives via extensive ablation studies and quantitative comparisons.
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
